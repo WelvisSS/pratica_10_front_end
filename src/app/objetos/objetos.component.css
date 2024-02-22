@@ -1,0 +1,53 @@
+.top-bottom {
+    background-color: red;
+    color: white;
+    display: inline-block;
+    padding: 8px 15px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.botoes-azuis {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.botao-azul {
+    background-color: blue;
+    color: white;
+    margin: 5px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+    width: 150px;
+    max-width: 150px;
+    min-width: 150px;
+}
+
+.botao-azul:hover {
+    background-color: darkblue;
+}
+
+.botao-azul[disabled] {
+    background-color: #cccccc;
+    color: #666666;
+    cursor: not-allowed;
+}
+
+.categorias {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
